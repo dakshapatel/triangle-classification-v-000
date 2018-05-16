@@ -21,7 +21,7 @@ class Triangle
       else
         :isosceles
       end
-    end
+  end
 
   def kosher_triangle
       x.positive? && y.positive? && z.positive?
@@ -29,11 +29,9 @@ class Triangle
 
   def kosher_triangle2
       x + y > z && x + z > y && y + z > x
-  end 
+  end
 end
 
   class TriangleError < StandardError
 
   end
-
-end
